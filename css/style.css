@@ -1,0 +1,262 @@
+body{
+  padding:0;
+  margin:0;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  max-height: 9000px;
+  perspective: 1000;
+}
+.container{
+	max-width: 950px;
+	margin: auto;
+}
+
+
+
+
+
+
+		@media(min-width:992px) {
+			
+		    #wrapper {
+		        padding-left: 0;
+		    }
+
+		    #wrapper.toggled {
+		        padding-left: 250px;
+		    }
+
+		    #sidebar-wrapper {
+		        width: 0;
+
+		    }
+
+		    #wrapper.toggled #sidebar-wrapper {
+		        width: 250px;
+		    }
+
+		    #page-content-wrapper {
+		        padding: 20px;
+		        position: relative;
+		    }
+
+		    #wrapper.toggled #page-content-wrapper {
+		        position: relative;
+		        margin-right: 0;
+		    }
+		}
+		@media(max-width:992px){
+			#wrapper {
+		        display: none;
+		    }
+
+		}
+/*Side-bar end*/
+
+
+
+	/*changed start*/
+	.change{
+		background-color:  #ee6e73;
+
+	}
+	nav .brand-logo{
+		padding-left: 30px;
+	}
+	nav .right{
+		padding-right: 30px;
+	}
+	.intro-head{
+	background-image: url(../img/web.jpg);
+	background-size: cover;
+	height: 950px;
+	/*margin-top: -13px;*/
+	padding: 50px;
+	}
+	
+	.intro-head h1{
+		color:  #ee6e73;
+		text-shadow: 4px 6px 12px #ee6e73;
+	    font-family:  Arial, Helvetica, sans-serif;
+	    font-size: 55px;
+	    /*text-align: center;*/
+
+	}
+	.intro-head .btn{
+	margin-top: 15px;
+	font-weight: 600;
+	background-color: #424242;
+	/*margin-left: 400px;*/
+	
+	}
+
+.services{
+	margin-top: 70px;
+	height: 600px;
+	margin-bottom: 20px;
+}
+.services h4{
+	text-align: center;
+	border-top: solid 2px #363636;
+	border-bottom:  solid 2px #363636;
+	width: 175px;
+	padding: 10px;
+	margin-left: 350px;
+}
+.services .row .col .card{
+	display: inline-block;
+}
+
+.works{
+	margin-top: 70px;
+	height: 800px;
+	margin-bottom: 20px;
+}
+.works h4{
+	text-align: center;
+	border-top:  solid 2px #363636;
+	border-bottom:  solid 2px #363636;
+	width: 200px;
+	padding: 10px;
+	margin-left: 350px;
+}
+.works .row .col .card{
+	display: inline-block;
+}
+
+.about{
+	background: linear-gradient(0deg, rgba(0,0,0,1), rgba(255,255,255,0)), url(../img/cddbc13802d7fd5e948293e3b3c0e701-d6kb5a1.jpg) no-repeat;
+	position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+	max-height: 150vh;
+	margin-top: 100px;
+	/*background-color: #F4F7F7;*/
+	margin-right: -15px;
+    margin-left: -15px;
+    overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.about .info{
+	width: 65.66666%;
+	float: left;
+}
+
+.about .info h4,p{
+	color: #aaa;
+	/*text-align: center;*/
+}
+
+.about .about-img{
+	width: 32.3333333%;
+	float: right;
+	margin-top: 70px;
+	margin-right: -50px
+}
+.clients h4{
+	text-align: center;
+	border-top: solid 2px #363636;
+	border-bottom:  solid 2px #363636;
+	width: 220px;
+	padding: 10px;
+	margin-left: 350px;
+}
+
+.contact {
+background-image: url(../img/background.jpg);
+height: 650px;
+margin-top: 70px;
+
+}
+.contact .infoo{
+width: 50%;
+float: left;
+color: #aaa;
+line-height: 1.4em;
+margin-top: 20px;
+}
+.contact .infoo h2{
+color: #ddd;
+padding-bottom: 25px;
+}
+
+.contact .row form{
+	padding-top: 1px;
+}
+.contact .file-field .btn{
+    padding: 0px 1rem;
+    background-color: #363636;
+    height: 2rem;
+    line-height: 2rem;
+}
+.contact .row .waves-effect{
+	margin-top: 20px;
+    background-color: #ee6e73;
+    height: 3rem;
+    line-height: 3rem;
+}
+.contact .row .col{
+	float: unset;
+	
+}
+.contact .row .col .row{
+	margin-top: 100px;
+}
+.contact .row .col .material-icons{
+	color: #ddd;
+}
+.footer{
+background-color: #191E22;
+height: 85px;
+color: #787C7F;
+overflow: hidden;
+text-align: center;
+padding-bottom: 50px;
+margin-top: -10px;
+}
+.footer .div{
+font-size: 30px;
+}
+.footer i {
+width: 30px;
+height: 30px;
+background-color: #475254;
+border-radius: 50%;
+line-height: 30px;
+color: #181D21;
+}
+.footer a.ex1 i:hover{
+background-color: #0029A3;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex2 i:hover{
+background-color: #0066ff;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex3 i:hover{
+background-color: #cc0000;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex4 i:hover{
+background-color: #cc0000;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex5 i:hover{
+background-color: #3366cc;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+.footer a.ex6 i:hover{
+background-color: #ff3300;
+color: #fff;
+transition: 0.5s ease-in-out;
+}
+    
+/*Navbar end*/
